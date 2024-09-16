@@ -1,0 +1,58 @@
+body {
+    background-color: #fffffe; 
+    color: #fff; 
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 1200px;
+justify-content: center
+}
+
+#characters {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    width: 300px; 
+    text-align: center;
+}
+
+.character-img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.character-status {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.character-joke {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+    .character-card {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
